@@ -1,0 +1,4 @@
+{
+  "buildCommand": "./build_local_site.sh",
+  "outputDirectory": "public_html"
+}
