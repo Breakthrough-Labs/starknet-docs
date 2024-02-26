@@ -259,6 +259,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 </script>
+<link rel="stylesheet" href="https://cookbook-docsbot-staging.vercel.app/docsbot.css">
+<script>
+  if (window && !window.document.getElementById("__cookbook")) {
+    const cookbookContainer = document.createElement("div");
+    cookbookContainer.id = "__cookbook";
+    cookbookContainer.setAttribute(
+      "data-api-key",
+      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NWRiZjVhZWRjZDY1NzI0ODdlMTQwMmQiLCJpYXQiOjE3MDg5MTQwOTQsImV4cCI6MjAyNDQ5MDA5NH0.8Yq_nxpExO-x-bCbZ4OieXqya5FB62DWyHLu4s3XXos"
+    );
+    document.body.appendChild(cookbookContainer);
+    document.body.classList.add("dark");
+  }
+</script>
+<script src="https://cookbook-docsbot-staging.vercel.app/docsbot.min.js" defer></script>
 </head>
 </html>
 
